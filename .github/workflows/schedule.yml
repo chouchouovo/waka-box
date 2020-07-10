@@ -8,7 +8,7 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - name: waka-box
-        uses: matchai/waka-box@master
+        uses: chouchouovo/waka-box@master
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           GIST_ID: f9760fbaadb69493b039c4f68d949d4a
